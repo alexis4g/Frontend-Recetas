@@ -1,0 +1,139 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0 20px; /* Añade margen general a la derecha e izquierda */
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #2c3e50; /* Fondo oscuro del Navbar */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.navbar .nav-link {
+  color: #fff; /* Texto blanco */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: none; /* Asegura que no haya fondo */
+  border: none; /* Sin bordes adicionales */
+}
+
+.navbar .nav-link:hover {
+  color: #a7a9ab; /* Cambia el color del texto al hacer hover */
+  background: none; /* Asegura que no aparezca fondo al hacer hover */
+}
+
+
+
+
+
+
+
+
+/* Estilos para listas de recetas */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* Añade margen superior e inferior a las listas */
+}
+
+ul li {
+  background-color: #ecf0f1;
+  margin: 20px 0;
+  padding: 20px; /* Aumenta el padding dentro de cada tarjeta */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+  color: #333;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+button   {
+  font-size: 1rem;
+  background-color: #7f8c8d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  
+  margin-top: 10px; /* Añade margen entre botones */
+}
+
+button:hover {
+  background-color: #95a5a6;
+}
+
+/* Estilos para formularios */
+form {
+  margin: 20px 0;
+}
+
+form div {
+  margin-bottom: 15px; /* Separación entre los campos del formulario */
+}
+
+form label {
+  display: block; /* Muestra el label en una línea separada */
+  margin-bottom: 5px; /* Margen entre label e input */
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #7f8c8d;
+  color: white;
+  margin-right: 10px;
+}
+
+a:hover {
+  background-color: #95a5a6;
+}
+
+h2{
+  margin-top: 2rem;
+}
+
+
